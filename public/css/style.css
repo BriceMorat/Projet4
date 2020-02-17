@@ -1,0 +1,66 @@
+header h1, header .h1{
+	
+	z-index: 1;
+	font-family: 'Playball';
+}
+
+header nav img {
+	width: 30px;
+	height: 30px;
+}
+
+#chapterModal {
+	display: none;
+}
+
+.comment {
+	word-wrap: break-word;
+}
+
+.table {
+	table-layout: fixed;
+}
+
+#container {
+	border-radius: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (max-width: 767px) {
+	.adminSection, .chapterDiv, .commentDiv, .memberDiv {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.adminSection h2, .adminSection h3, .writeChapter, .card-body, section, p, h2, h3, label, .form-group {
+		text-align: center;
+		
+	}
+
+	thead tr {
+		display: none;
+	}
+
+	tbody tr, .nav-pills {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	tbody .text-right {
+		margin: 0 auto;
+	}
+
+	.alert-btn, .g-recaptcha {
+		justify-content: center;
+		display: flex;
+	}
+
+	.send-btn {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+ 
